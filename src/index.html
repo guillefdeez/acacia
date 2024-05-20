@@ -3,22 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Calculator App</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        font-family: Arial, sans-serif;
-      }
-      .container {
-        text-align: center;
-      }
-      #result {
-        margin-top: 20px;
-        font-size: 2em;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -26,12 +11,21 @@
       <h1>Welcome to Tauri Calculator!</h1>
 
       <form id="calculator-form">
+        <div id="container">
+          <div id="box">
+            <input type="number" id="number1" placeholder="Enter a number..." required />
 
-        <input type="number" id="number1" placeholder="Enter a number..." required />
-        <input type= "text" id="operator" placeholder="jhcsjhc" required/>
-        <input type="number" id="number2" placeholder="Enter a number..." required />
+          </div>
+          <div id="box">
+            <input type= "text" id="operator" placeholder="Operation" required/>
+
+          </div>
+          <div id="box">
+            <input type="number" id="number2" placeholder="Enter a number..." required />
+
+          </div> 
+        </div>
         <button type="submit" id="submit">Calculate</button>
-        
       </form>
 
       <p id="result"></p>
