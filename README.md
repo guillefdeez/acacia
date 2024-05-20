@@ -5,6 +5,7 @@ a simple calculator made in tauri
 ## How to run
 
 dev: `npm run tauri dev`
+
 build: `npm run tauri build`
 
 ## Disclaimer
