@@ -12,28 +12,43 @@ body {
   text-align: center;
 }
 
-#box {
+.box {
   background-color: #333;
   padding: 20px;
+  vertical-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.operation{
+  font-size: 2em;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #bbb;
+  color: #fff;
+}
+
+#calculator-form {
+  display: flex;
+  align-items: center;
+}
+
+#info-holder{
+  background-color: #333333;
 }
 
 #input {
   font-size: 1.5em;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   border-radius: 10px;
   margin: 10px;
-}
-
-#submit {
-  font-size: 1.5em;
-  font-weight: bold;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  margin: 20px;
+  background-color: #bbb;
 }
 
 #result {

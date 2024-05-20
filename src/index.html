@@ -9,27 +9,29 @@
   <body>
     <div class="container">
       <h1>Welcome to Tauri Calculator!</h1>
-
-      <form id="calculator-form">
-        <div id="container">
-          <div id="box">
-            <input type="number" id="number1" placeholder="Enter a number..." required />
-
+      <div id="info-holder">
+        <form id="calculator-form">
+          <div class="box">
+            <div class="box">
+              <input type="number" id="number1" placeholder="Enter a number..." required />
+            </div>
+            <div class="box">
+              <input type="number" id="number2" placeholder="Enter a number..." required />
+            </div>
           </div>
-          <div id="box">
-            <input type= "text" id="operator" placeholder="Operation" required/>
-
+          <div class="box">
+            <div class="box">
+              <button id="add" class="operation">+</button>
+              <button id="subtract" class="operation">-</button>
+            </div>
+            <div class="box">
+              <button id="multiply" class="operation">x</button>
+              <button id="divide" class="operation">/</button>
+            </div>
           </div>
-          <div id="box">
-            <input type="number" id="number2" placeholder="Enter a number..." required />
-
-          </div> 
-        </div>
-        <button type="submit" id="submit">Calculate</button>
-      </form>
-
+        </form>
+      </div>
       <p id="result"></p>
-
     </div>
     <script src="main.js"></script>
   </body>

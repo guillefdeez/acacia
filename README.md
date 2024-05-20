@@ -1,7 +1,17 @@
-# Tauri + Vanilla
+# Acacia
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+a simple calculator made in tauri
 
-## Recommended IDE Setup
+## How to run
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+dev: `npm run tauri dev`
+build: `npm run tauri build`
+
+## Disclaimer
+
+this is a mess. i dont know css. i dont know js. i kinda know rust tho????
+
+
+## License
+
+i also dont know how to license things. so i guess this is public domain. do whatever you want with it. 
